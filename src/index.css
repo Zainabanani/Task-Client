@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@400;500;600&display=swap');
+
+
+:root {
+    --Signika: 'Signika+Negative', sans-serif;
+    --primary: #974FD0;
+    --pp:#2D0050;
+    --secondary: #292929;
+    --action: #F38383;
+    --tertiary: #73C3A6;
+    --nursery: #B8B6B6; 
+    --uni: #DEF1F9;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    outline: none;
+}

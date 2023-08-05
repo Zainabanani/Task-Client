@@ -1,0 +1,45 @@
+.headie{
+    gap: 10px;
+    margin-left: 20px;
+}
+
+.headie h1{
+    font-family: var(--Signika);
+    font-weight: 600;
+    font-size: 27px;
+    color: var(--pp);
+}
+
+
+.maballi{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    margin-right: 60px;
+}
+.maballi img{
+    display: none;
+}
+
+.maballi li{
+    font-family: var(--Signika);
+font-size: 22px;
+font-weight: 500;
+line-height: 27px;
+color: #292929;
+}
+
+
+
+@media (min-width: 1000px){
+    .maballi{
+        gap: 25px;
+    }
+
+    .maballi img{
+        display: block;
+    }
+    .headie{
+        margin-left: 60px;
+    }
+}

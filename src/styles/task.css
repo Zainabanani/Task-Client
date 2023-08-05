@@ -1,0 +1,106 @@
+.newtask{
+    text-align: center;
+    margin-top: 20px;
+   
+}
+
+.newtask h1{
+    font-family: var(--Signika);
+    font-size: 20px;
+font-weight: 300;
+}
+
+.newtask h2{
+    font-family: var(--Signika);
+    
+    font-size: 20px;
+font-weight: 300;
+color: var(--primary);
+}
+
+.urgent{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.urgent button{
+    background-color: var(--primary);
+    border: none;
+    height: 30px;
+    width: 90px;
+    border-radius: 8px;
+    color: white;
+    margin-left: 5px;
+   
+}
+.maballa{
+    margin-left: 50px;
+}
+.urgent .maballa .bin{
+   border: 2px solid red;
+    background-color: white;
+    color: var(--primary);
+    border: 1px solid var(--primary);
+    margin-right: 10px;
+}
+.sec-3{
+  border: 1px solid #B8B6B6;
+  width: 330px;
+  height: 200px;
+  border-radius: 8px;
+  margin: 20px auto;
+}
+.urgent h1{
+font-family: var(--Signika);
+font-size: 24px;
+font-weight: 400;
+line-height: 30px;
+color: var(--action);
+margin-left: 10px;
+
+}
+
+
+@media(min-width: 1000px){
+    .newtask{
+        width: 800px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin:20px auto;
+    }
+}
+
+@media (min-width: 425px){
+    .sec-3{
+    width: 380px;
+    height: 200px;
+    }
+}
+@media (min-width: 728px){
+    .newtask{
+        width:680px ;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0px auto;
+    }
+    .sec-3{
+    width: 670px;
+    height: 200px;
+    }
+}
+@media (min-width: 1000px){
+    .sec-3{
+    width: 800px;
+    height: 240px;
+    }
+}
+@media (min-width: 1440px){
+    .sec-3{
+    width: 1200px;
+    height: 287px;
+    }
+}
+
